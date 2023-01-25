@@ -1,0 +1,16 @@
+<html>
+    <link rel="stylesheet" href="{{ url_for('static', filename='order_style.css') }}">
+  <head>
+    <title>{{title}} - Glasgow Books</title>
+    <body>
+        <h1>{{order.customer_name}}'s Order</h1>
+        <p>
+      {{order.book_title}} : £{{order.total}}
+      </p>
+      <p>
+        {{order.date}}
+      </p>
+
+    </body>
+  </head>
+</html>

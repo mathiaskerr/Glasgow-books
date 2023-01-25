@@ -1,0 +1,27 @@
+* {
+   
+    text-align: start;
+    
+}
+h1{
+    margin: auto;
+    margin-top: 10px;
+    max-width: fit-content;
+    padding: 5px;
+    background-color: brown;
+    text-align: center;
+}
+
+body > p {
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color:black;
+}   
